@@ -30,10 +30,22 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# Windows
+Thumbs.db
+desktop.ini
+
 # local env files
 .env*.local
 
 # typescript
 *.tsbuildinfo
 
-app-example
+# IDEs
+.idea/
+.vscode/
+
+# logs
+*.log
+
+# build output (필요 시)
+build/
